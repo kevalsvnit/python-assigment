@@ -2,13 +2,13 @@
 t=int(input())
 
 for i in range(t):
- n=int(input())  
- x=int(input()) 
- s=int(input())
+ n=int(input("enter number of box"))  
+ x=int(input("enter present position of coin")) 
+ s=int(input("enter number of swap"))
  temp=x
  for t in range(s):
-  a=int(input())
-  b=int(input())
+  a=int(input("enter value of a:"))
+  b=int(input("enter value of b:"))
   if a==temp:
    temp=b
   elif b==temp:
@@ -16,7 +16,7 @@ for i in range(t):
 
 
 
-   print("coin is found in ",temp)
+   print("coin is found in position: ",temp)
    
    
 
