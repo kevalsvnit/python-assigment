@@ -6,7 +6,7 @@ for i in range(t):
  x=int(input("enter present position of coin")) 
  s=int(input("enter number of swap"))
  temp=x
- for t in range(s):
+ for k in range(s):
   a=int(input("enter value of a:"))
   b=int(input("enter value of b:"))
   if a==temp:
