@@ -1,12 +1,11 @@
-number=int(input("enter value of number"))
-fact=1
-while number>=1:
-    fact = fact*number
-    number=number-1
+number = int(input("Enter the number to check: "))
 
+a, b = 0, 1
 
+while b < number:
+    a, b = b, a + b
 
-print("factorial is",fact) 
-
-
-
+if b == number:
+    print(f"{number} is an element of the Fibonacci series")
+else:
+    print(f"{number} is not an element of the Fibonacci series")
